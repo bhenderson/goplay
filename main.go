@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+// Inspired from a play.golang I found online, but I can't find it at the moment.
 func main() {
 	url := "http://play.golang.org"
 	resp, err := http.Post(url+"/share", "text/plain", os.Stdin)
